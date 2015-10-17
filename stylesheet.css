@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body {
+    background-color:darkmagenta;
+}
+@media (max-width: 35em) {
+    .wrapper {
+        max-width: 560px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .masthead {
+        background: url("http://picm.bbzhi.com/huihuabizhi/quweimaomihuihuabizhilowellherrerozuopinbizhikuzhizuo/animal_lowell_herrero_60543_m.jpg");
+        background-repeat: no-repeat;
+        background-size: 37%;
+        background-position:top;
+    }
+    nav li {
+        max-width: 560px;
+        width: 100%;
+        text-align: center;
+        line-height: 2.5rem;
+        background-color: #DE5BB8;
+        border:1px solid #E1D835;
+    }
+    .left {
+        max-width: 560px;
+        width: 100%;
+    }
+    .right {
+        max-width: 560px;
+        width: 100%;
+    }
+    h1 {
+        font-family: Francois One;
+        font-size: 1.8rem;
+        text-align: center;
+        line-height: 5rem;
+        color:#00FF00;
+        padding-top: 3.5rem;
+    }
+    h2,h3 {
+        font-family: Lobster;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 3rem;
+        color: #E2A1DE;
+        background-color: #C829C1;
+    }
+    main p,aside p {
+        font-family: PT Sans Narrow;
+        font-size: 0.8rem;
+        padding: 1rem;
+        color: white;
+        background-color: #602E80;
+    }
+    footer p {
+        max-width: 560px;
+        width: 100%;
+        font-family: Orbitron;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 2.5rem;
+        background-color: #AB137B;
+        color: #E2A851;
+    }
+    nav li a {
+        text-decoration: none;
+        font-family: Yanone Kaffeesatz;
+        font-size: 1.5rem;
+        color: #3B00F2;
+    }
+    nav ul {
+        list-style: none;
+        border-bottom: 30px solid darkmagenta;
+    }
+    nav li a:hover {
+    color: #ECF765;
+    }
+}
+
+@media (min-width: 35em) and (max-width:60em) {
+    .wrapper {
+        margin: 2rem;
+        max-width: 960px;
+        max-height: 960px;
+    }
+    .masthead {
+        max-width: 960px;
+        width: 100%;
+        text-align: center;
+        background: url("http://picm.bbzhi.com/huihuabizhi/quweimaomihuihuabizhilowellherrerozuopinbizhikuzhizuo/animal_lowell_herrero_60543_m.jpg");
+        background-repeat: no-repeat;
+        background-size: 22%;
+        background-position:top;
+    }
+    nav li {
+        float: left;
+        width: 25%;
+        text-align: center;
+        line-height: 3rem;
+        background-color: #DE5BB8;
+        border:2px solid #E1D835;
+    }
+    .content {
+        float: left;
+        width: 63%;
+    }
+    .side {
+        float: right;
+        width: 37%;
+    }
+    .footer {
+        clear: both;
+        text-align: center;
+        max-width: 960px;
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .left {
+        max-width: 960px;
+        width: 100%;
+    }
+    .right {
+        max-width: 960px;
+        width: 100%;
+    }
+    h1 {
+        font-family: Francois One;
+        font-size: 2.2rem;
+        text-align: center;
+        line-height: 5rem;
+        color:#00FF00;
+        padding-top: 3.5rem;
+    }
+    h2,h3 {
+        font-family: Lobster;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 3rem;
+        color: #E2A1DE;
+        background-color: #C829C1;
+    }
+    main p,aside p {
+        font-family: PT Sans Narrow;
+        font-size: 1rem;
+        padding: 1rem;
+        color: white;
+        background-color: #602E80;
+    }
+    aside p,aside h3{
+        border-left:5px solid #ECF765;
+    }
+    footer p {
+        font-family: Orbitron;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 2.5rem;
+        background-color: #AB137B;
+        color: #E2A851;
+    }
+    nav li a {
+        text-decoration: none;
+        font-family: Yanone Kaffeesatz;
+        font-size: 1.5rem;
+        color: #3B00F2;
+    }
+    nav ul {
+        list-style: none;
+    }
+    nav li a:hover {
+        color: #ECF765;
+    }
+    main h2,main h3,main p {
+        border-left:5px solid #ECF765;
+    }
+    main p:nth-child(7) {
+        border-bottom: 5px solid #ECF765;
+    }
+    aside p,aside h3 {
+        border-right:5px solid #ECF765;
+    }
+    aside p:nth-child(4) {
+        border-bottom: 5px solid #ECF765;
+        border-left:5px solid #ECF765;
+    }
+    main h2,aside h3 {
+        border-top:2px solid #ECF765; 
+    }
+}
+
+@media (min-width: 60em) {
+    .wrapper {
+        margin: 0.8rem;
+        max-width: 1600px;
+        background: url("http://lorempixel.com/600/400/cats/");
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-position: 2% 7.5%;
+    }
+    .masthead {
+        width: 100%;
+        text-align: center;
+        background: url("http://picm.bbzhi.com/huihuabizhi/quweimaomihuihuabizhilowellherrerozuopinbizhikuzhizuo/animal_lowell_herrero_60543_m.jpg");
+        background-size: 14%;
+        background-repeat: no-repeat;
+        background-position: top;
+        
+    }
+    .mainnav {
+        float: left;
+        width: 25%;
+    }
+    .side {
+        float: right;
+        width: 25%;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+    }
+    .footer {
+        clear: both;
+        width: 100%;
+        padding-top: 0.7rem;
+    }
+    .content {
+        float: left;
+        width: 50%;
+        padding-top: 1.5rem;
+    }
+    main {
+        -webkit-column-count: 2;
+        -webkit-column-gap: 1rem;
+        column-count: 2;
+        column-gap: 1rem;
+    }
+    .left {
+        max-width: 1600px;
+        width: 100%;
+    }
+    .right {
+        max-width: 1600px;
+        width: 100%;
+    }
+    h1 {
+        font-family: Francois One;
+        font-size: 2.8rem;
+        text-align: center;
+        line-height: 5rem;
+        color:#00FF00;
+        padding-top: 3.5rem;
+    }
+    h2,h3 {
+        font-family: Lobster;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        color: #E2A1DE;
+        background-color: #C829C1;
+    }
+    main p,aside p {
+        font-family: PT Sans Narrow;
+        font-size: 1.5rem;
+        color: white;
+        background-color: #602E80;
+        padding: 1rem;
+    }
+    footer p {
+        font-family: Orbitron;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 2.5rem;
+        background-color: #AB137B;
+        color: #E2A851;
+    }
+    nav li a {
+        text-decoration: none;
+        font-family: Yanone Kaffeesatz;
+        font-size: 2rem;
+        color:#3B00F2;
+    }
+    nav li a:hover {
+        color:#ECF765;
+    }
+    nav ul {
+        list-style: none;
+        padding-right: 1rem;
+        padding-top: 1.5rem;
+    }
+    nav li {
+        text-align: center;
+        line-height: 2.5rem;
+        background-color: #DE5BB8;
+        border:3px solid #E1D835;
+    }
+}
